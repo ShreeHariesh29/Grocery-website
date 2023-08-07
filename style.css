@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 1px 1px 1px 1px rgb(115, 197, 115) ;
+    height: 120px;
+    
+}
+.topone{
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+}
+#one{
+    padding: 5px;
+    padding-top: 2px;
+    font-size: 13px;
+    color: gray;
+    
+}
+.searchbar{
+    display: flex;
+}
+.cart{
+    display: flex;
+    background-color: rgb(226, 225, 225);
+    width: 150px;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 50px;
+}
+.subheader1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+button{
+    border: none;
+    mix-blend-mode: color-burn;
+    margin-right: 6px;
+
+}
