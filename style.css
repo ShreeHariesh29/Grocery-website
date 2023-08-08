@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.header{
+#header{
     margin-left: 10%;
     margin-right: 10%;
     height: 120px;
@@ -33,7 +33,7 @@
     padding-bottom: 5px;
     height: 50px;
 }
-.subheader1{
+#subheader1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
