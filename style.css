@@ -6,7 +6,6 @@
 .header{
     margin-left: 10%;
     margin-right: 10%;
-    box-shadow: 1px 1px 1px 1px rgb(115, 197, 115) ;
     height: 120px;
     
 }
@@ -43,5 +42,11 @@ button{
     border: none;
     mix-blend-mode: color-burn;
     margin-right: 6px;
+    cursor: pointer;
+
+}
+.searchbut:hover{
+    
+    color: rgb(57, 71, 57);
 
 }
