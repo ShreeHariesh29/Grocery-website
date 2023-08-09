@@ -8,10 +8,47 @@
     <link rel="stylesheet" href="eggsmeat.css">
 </head>
 <body>
+  <div id="header" style="margin-left: 10%; margin-right: 10%;">
+    <div class="topone" style="height: 30px;">
+        <p class="number" id="one"><span><img style="width: 13px;padding-right: 2px;" src="icons/mobile icon.png" alt=""></span> 1234567891</p>
+        <p class="location" id="one"><span><img style="width: 13px; padding-right: 2px;" src="icons/location icon.png" alt=""></span>Chennai</p>
+        <p class="login" id="one"><span><img style="width: 13px; padding-right: 2px;" src="icons/login user icon.png" alt=""></span>login/Register</p>
+    </div>
+    <div id="subheader1" class="d-flex justify-content-between">
+        <img src="icons/bb logo.png" class=" float-left" style="width: 150px; height: 60px;" alt="">
+        <div class="searchbar"> 
+            <div><input style="width: 600px; height: 30px; margin-top: 10px; padding-left: 10px;" type="text" name="search bar" id="search" placeholder="Search for Products...">
+            </div>
+            <a href="#">
+                <div class="btn" style="width: 40px; height: 30px; margin-top: 10px; background-color: greenyellow; align-items: center; cursor: pointer; border-radius: 0%;">
+                    <img style="width: 20px; height: 17px; margin-bottom: 15px;" src="icons/search icon.png" alt=""> 
+                </div>
+                
+            </a>
+        </div>
+        <div class="cart ">
+            <a style="text-decoration: none; color: black;" href="#">
+                <butto class="chartbutton" style="display: flex;">
+                    <div>
+                        <img style="width: 40px;  cursor: pointer;" src="icons/cart icon.png"  alt=""></div>
+                    <div class="container" style=" font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >
+                        <p>My Basket <br> 0 items</p>
+                    </div>
+                </button>
+            </a>
+        </div>
+    </div>
+    <div style=" border-color:  rgb(206, 201, 201); border-style:  solid; border-width: 1px; padding: 0%; ">
+        <div class="btn " style="width: 20%; height: 40px; background-color:#84C225 ; text-align: center; font-size: 15px; font-weight: 700; color: white; border-radius: 0%; ">SHOP BY CATEGORY</div>
+        <div class="btn " style="width: 10%; height: 40px;  text-align: center;">
+            <img style="width: 30px;" src="icons/off icon.avif" alt="">
+        OFFERS</div>
+    </div>
+</div>
   <div>
     
   </div>
-    <div style="display: flex;" >
+    <div style="display: flex; margin-left: 10%; margin-right: 10%;" >
         <div class="container d-flex" >
           <div class="flex-shrink-0 p-3" style="width: 280px;">
             <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
@@ -25,10 +62,10 @@
                 </button>
                 <div class="collapse show" id="home-collapse">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Eggs</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Fish & Seafood</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Mutton & Lamb</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Poultry</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Eggs</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Fish & Seafood</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Mutton & Lamb</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Poultry</a></li>
                   </ul>
                 </div>
               </li>
@@ -38,11 +75,11 @@
                 </button>
                 <div class="collapse show" id="dashboard-collapse">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Rs.21 to Rs.50</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Rs.51 to Rs.100</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Rs.101 to Rs.200</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Rs.201 to Rs.500</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">More than Rs.501</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Rs.21 to Rs.50</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Rs.51 to Rs.100</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Rs.101 to Rs.200</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Rs.201 to Rs.500</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">More than Rs.501</a></li>
                   </ul>
                 </div>
               </li>
@@ -52,12 +89,12 @@
                 </button>
                 <div class="collapse show" id="orders-collapse">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">India</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">UK</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">USA</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Italy</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Vietnam</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thailand</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">  India</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">UK</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">USA</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Italy</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Vietnam</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Thailand</a></li>
                   </ul>
                 </div>
               </li>
@@ -68,9 +105,9 @@
                 </button>
                 <div class="collapse show" id="account-collapse">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Fresho</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Meatzza</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">La Carne</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Fresho</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Meatzza</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">La Carne</a></li>
                   </ul>
                 </div>
               </li>
@@ -79,12 +116,13 @@
           </div>
             
     
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 ">
-            <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4  " style="margin-top: 20px;">
+            <div class="col" style="width: 222px;">
               <div class="card shadow-sm">
                 <img src="harold's images/eggs and meat/281204_8-fresho-eggs-regular (1).jpeg" alt="Fresho Eggs - Regular" >
                 <div class="card-body">
-                  <h3 class="fs-6 text-body-emphasis">Nick Hilton</h3>
+                  <h3 class="fs-6 text-body-secondary">Nick Hilton</h3>
+                  <h3 class="fs-5 text-body-emphasis">Nick Hilton</h3>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -96,7 +134,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" style="width: 222px;">
               <div class="card shadow-sm">
                 <img src="harold's images/eggs and meat/Meatzza-Chicken-Hot-Spicy-Seekh-Kabab-500g_image1.jpg" alt="Meatzza Chicken Hot Spicy Seekh Kabab" >
                 <div class="card-body">
@@ -111,7 +149,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" style="width: 222px;">
               <div class="card shadow-sm">
                 <img src="harold's images/eggs and meat/40094160-2_1-fresho-country-desi-eggs-small-antibiotic-residue-free.jpeg" alt="Fresho Country Desi Eggs" >
                 <div class="card-body">
@@ -127,7 +165,7 @@
               </div>
             </div>
     
-            <div class="col">
+            <div class="col" style="width: 222px;">
               <div class="card shadow-sm">
                 <img src="harold's images/eggs and meat/10000942_8-fresho-mutton-shoulder-boneless.jpeg" alt="Fresho Mutton Shoulder - Boneless" >
                 <div class="card-body">
@@ -142,7 +180,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" style="width: 222px;">
               <div class="card shadow-sm">
                 <img src="harold's images/eggs and meat/40197948_1-fresho-mutton-raw-lamb-rack.jpeg" alt="Fresho Mutton Raw Lamb Rack" >
                 <div class="card-body">
@@ -157,7 +195,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" style="width: 222px;">
               <div class="card shadow-sm">
                 <img src="harold's images/eggs and meat/40186084_4-fresho-frozen-prawns-large.jpeg" alt="Fresho Frozen Prawns - Large" >
                 <div class="card-body">
@@ -173,7 +211,7 @@
               </div>
             </div>
     
-            <div class="col">
+            <div class="col" style="width: 222px;">
               <div class="card shadow-sm">
                 <img src="harold's images/eggs and meat/40048878_2-fresho-basa-fish-fillet.jpeg" alt="Fresho Basa Fish Fillet" >
                 <div class="card-body">
@@ -188,7 +226,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" style="width: 222px;">
               <div class="card shadow-sm">
                 <img src="harold's images/eggs and meat/40249725_1-fresho-dry-fish-nathli-anchovies-big-salted-cut-cleanedfor-accompaniment-with-meals.jpeg" alt="Fresho Dry Fish - Nathli" >
                 <div class="card-body">
@@ -203,7 +241,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" style="width: 222px;">
               <div class="card shadow-sm">
                 <img src="harold's images/eggs and meat/meatzza-mutton-seekh-kabab-500g.jpg" alt="Meatzza Mutton Seekh Kabab" >
                 <div class="card-body">
@@ -218,7 +256,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" style="width: 222px;">
                 <div class="card shadow-sm">
                   <img src="harold's images/eggs and meat/laCarneMuttonSeekhKebab500gm-768x768.jpg" alt="La Carne Mutton Seekh Kabab" >
                   <div class="card-body">
@@ -233,7 +271,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 222px;">
                 <div class="card shadow-sm">
                   <img src="harold's images/eggs and meat/10000911_13-fresho-chicken-leg-with-skin.jpeg" alt="Fresho Chicken Leg with Skin" >
                   <div class="card-body">
@@ -248,7 +286,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 222px;">
                 <div class="card shadow-sm">
                   <img src="harold's images/eggs and meat/10000925_7-fresho-chicken-mixed-boneless.jpeg" alt="Fresho Chicken Mixed - Boneless" >
                   <div class="card-body">
@@ -263,7 +301,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 222px;">
                 <div class="card shadow-sm">
                   <img src="harold's images/eggs and meat/40049537_7-meatzza-chicken-jumbo-hot-dog.jpeg" alt="Meatzza Chicken Jumbo Hot Dog" >
                   <div class="card-body">
@@ -278,7 +316,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 222px;">
                 <div class="card shadow-sm">
                   <img src="harold's images/eggs and meat/la-carne-chicken-tandoori-tikka-500g.jpg" alt="La Carne Chicken Tandoori Tikka" >
                   <div class="card-body">
@@ -293,7 +331,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 222px;">
                 <div class="card shadow-sm">
                   <img src="harold's images/eggs and meat/40038379_9-fresho-farm-eggs-brown-medium-antibiotic-residue-free.jpeg" alt="Fresho Farm Eggs - Brown" >
                   <div class="card-body">
@@ -308,7 +346,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 222px;">
                 <div class="card shadow-sm">
                   <img src="harold's images/eggs and meat/40094162_5-fresho-duck-eggs-large-antibiotic-residue-free.jpeg" alt="Fresho Duck Eggs" >
                   <div class="card-body">
@@ -323,7 +361,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 222px;">
                 <div class="card shadow-sm">
                   <img src="harold's images/eggs and meat/40249727_1-fresho-dry-fish-shark-cubes-ready-to-cook-protein-rich-for-curries-snacks.jpeg" alt="Fresho Dry Fish - Shark Cubes" >
                   <div class="card-body">
@@ -338,7 +376,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 222px;">
                 <div class="card shadow-sm">
                   <img src="harold's images/eggs and meat/40093229_2-fresho-saral-puti-fish.jpeg" alt="Fresho Kolkata/Bengali Saral Puti Fish" >
                   <div class="card-body">
@@ -353,7 +391,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 222px;">
                 <div class="card shadow-sm">
                   <img src="harold's images/eggs and meat/10000922_10-fresho-chicken-wings-with-skin.jpeg" alt="Fresho Chicken Wings with Skin" >
                   <div class="card-body">
@@ -368,7 +406,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 222px;">
                 <div class="card shadow-sm">
                   <img src="harold's images/eggs and meat/40201002_2-meatzza-krispy-fried-chicken.jpeg" alt="Meatzza Krispy Fried Chicken" >
                   <div class="card-body">
