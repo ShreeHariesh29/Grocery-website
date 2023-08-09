@@ -1,11 +1,8 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
+
 #header{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
     height: 120px;
     
 }
@@ -33,11 +30,8 @@
     padding-bottom: 5px;
     height: 50px;
 }
-#subheader1{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+
+
 button{
     border: none;
     mix-blend-mode: color-burn;
@@ -48,5 +42,9 @@ button{
 .searchbut:hover{
     
     color: rgb(57, 71, 57);
+
+}
+#subheader1{
+    margin-top: 0px;
 
 }
