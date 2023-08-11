@@ -1,0 +1,621 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Discount.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+     <title>BabyCare</title>
+</head>
+<body>
+
+
+  <div id="header">
+    <div class="topone" style="height: 30px;">
+        <p class="number" id="one"><span><img style="width: 13px;padding-right: 2px;" src="icons/mobile icon.png" alt=""></span> 1234567891</p>
+        <p class="location" id="one"><span><img style="width: 13px; padding-right: 2px;" src="icons/location icon.png" alt=""></span>Chennai</p>
+        <p class="login" id="one"><span><img style="width: 13px; padding-right: 2px;" src="icons/login user icon.png" alt=""></span>login/Register</p>
+    </div>
+    <div id="subheader1" class="d-flex justify-content-between">
+        <img src="icons/bb logo.png" class=" float-left" style="width: 150px; height: 60px;" alt="">
+        <div class="searchbar"> 
+            <div><input style="width: 600px; height: 30px; margin-top: 10px; padding-left: 10px;" type="text" name="search bar" id="search" placeholder="Search for Products...">
+            </div>
+            <a href="#">
+                <div class="btn" style="width: 40px; height: 30px; margin-top: 10px; background-color: greenyellow; align-items: center; cursor: pointer; border-radius: 0%;">
+                    <img style="width: 20px; height: 17px; margin-bottom: 15px;" src="icons/search icon.png" alt=""> 
+                </div>
+                
+            </a>
+        </div>
+        <div class="cart ">
+            <a style="text-decoration: none; color: black;" href="#">
+                <butto class="chartbutton" style="display: flex;">
+                    <div>
+                        <img style="width: 40px;  cursor: pointer;" src="icons/cart icon.png"  alt=""></div>
+                    <div class="container" style=" font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >
+                        <p>My Basket <br> 0 items</p>
+                    </div>
+                </button>
+            </a>
+        </div>
+    </div>
+    <div style=" border-color:  rgb(206, 201, 201); border-style:  solid; border-width: 1px; padding: 0%; ">
+        <div class="btn " style="width: 20%; height: 40px; background-color:#84C225 ; text-align: center; font-size: 15px; font-weight: 700; color: white; border-radius: 0%; ">SHOP BY CATEGORY</div>
+        <div class="btn " style="width: 10%; height: 40px;  text-align: center;">
+            <img style="width: 30px;" src="icons/off icon.avif" alt="">
+        OFFERS</div>
+    </div>
+</div>
+
+
+
+
+<body>
+
+
+
+
+  <div class="container-fluid" style="margin-top: 5%; width: 58%; margin-right: 183px;"> 
+    <div class="d-flex flex-row mb-3 justify-content-between" style=" font-family: ProximaNovaA-Regular; font-size: 24px;">
+      <div class="p-2"> Baby Care (1202)</div>
+      <div class="p-2"><div class="dropdown-center">
+        <button class="btn btn-light" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 200px; line-height: 12px;">
+         Popularity
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Price-Low to High</a></li>
+          <li><a class="dropdown-item" href="#">Price-High to Low</a></li>
+          <li><a class="dropdown-item" href="#">Alphabetical</a></li>
+          <li><a class="dropdown-item" href="#">Rupee Saving-High to Low</a></li>
+          <li><a class="dropdown-item" href="#">Rupee Saving-Low to High</a></li>
+          <li><a class="dropdown-item" href="#">%off-High to Low</a></li>
+        </ul>
+      </div></div>
+    </div>
+    <hr>
+  </div>
+
+    <div style="display: flex; margin-left: 10%; margin-right: 10%;" >
+        <div class="container  d-flex">
+          <div class="flex-shrink-0 p-3" style="width: 280px;">
+            <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+              <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              
+            </a>
+            <ul class="list-unstyled ps-0">
+              <li class="mb-1">
+                <button style="text-decoration: underline;"  class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  Category
+                </button>
+                <div class="collapse show" id="home-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Eggs</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Fish & Seafood</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Mutton & Lamb</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Poultry</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-1">
+                <button style="text-decoration: underline;"  class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                  Price
+                </button>
+                <div class="collapse show" id="dashboard-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Rs.21 to Rs.50</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Rs.51 to Rs.100</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Rs.101 to Rs.200</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Rs.201 to Rs.500</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">More than Rs.501</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-1">
+                <button style="text-decoration: underline;"  class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                  Country of Origin
+                </button>
+                <div class="collapse show" id="orders-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">  India</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">UK</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">USA</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Italy</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Vietnam</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Thailand</a></li>
+                  </ul>
+                </div>
+              </li>
+              
+              <li class="mb-1">
+                <button style="text-decoration: underline;"  class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                  Brand
+                </button>
+                <div class="collapse show" id="account-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Fresho</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">Meatzza</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><input type="checkbox">La Carne</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="border-top my-3"></li>
+            </ul>
+          </div>
+
+
+
+                      
+      
+
+          
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-xm-1  row-cols-md-2 g-4  " style="margin-top: 0%;">
+            <div class="col" id="bankone" style="width: 222px;">
+              <div class="card">
+                <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                  <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                </div>
+                <img src="buttons/baby/img1.webp" alt="Fresho Eggs - Regular" >
+                <div class="card-body">
+                  <h3 class="fs-6 text-body-tertiary">Pampers</h3>
+                  <h3 class="fs-6 text-body-secondary">Diaper Pants - Extra Large</h3>
+                  <h3 class="fs-6 text-body-emphasis">MRP: Rs. 950</h3>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                    </div>
+                    <small class="text-body-secondary"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img2.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Pampers</h3>
+                    <h3 class="fs-6 text-body-secondary">Diaper Pants - XXL</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 361</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img3.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Pampers</h3>
+                    <h3 class="fs-6 text-body-secondary">All-Round Protection Diaper Pants - XXL, 15-25 kg, Ultra Absorb Core, Leakage Prevention for upto 12 Hours</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 944</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img4.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Pampers</h3>
+                    <h3 class="fs-6 text-body-secondary">Diaper Pants - Large</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 1884.50</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img5.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Johnson's baby</h3>
+                    <h3 class="fs-6 text-body-secondary">No More Tears Baby Shampoo</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 250</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img6.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Nestle</h3>
+                    <h3 class="fs-6 text-body-secondary">Lactogen 2 Follow-Up Formula Powder - After 6 Months, Stage 2</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 350</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img7.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Himalaya</h3>
+                    <h3 class="fs-6 text-body-secondary">Gentle Baby Shampoo - Mild, No Tears, Paraben Free</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 250</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img8.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">ApTamil</h3>
+                    <h3 class="fs-6 text-body-secondary">Gold Follow up Infant Formula Powder - With Prebiotics, DHA, Iron, Upto 6 Months, Stage 1</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 300</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img9.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Johnson's baby</h3>
+                    <h3 class="fs-6 text-body-secondary">Baby Lotion</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 117</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img10.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Himalaya</h3>
+                    <h3 class="fs-6 text-body-secondary">Baby Lotion - With Almond Oil & Olive Oil, Paraben Free
+                    </h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 120</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img11.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Himalaya</h3>
+                    <h3 class="fs-6 text-body-secondary">Baby Lotion - With Almond Oil & Olive Oil, Paraben Free
+                    </h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 90</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img12.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Himalaya</h3>
+                    <h3 class="fs-6 text-body-secondary">Baby Lotion - With Almond Oil & Olive Oil, Paraben Free
+                    </h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 125</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img13.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Baby Dove</h3>
+                    <h3 class="fs-6 text-body-secondary">Rich Moisture Bathing Bar - Sensitive Care, Natural, No Parabens
+                      4.3</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 95</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img14.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Himalaya</h3>
+                    <h3 class="fs-6 text-body-secondary">Gentle Baby Wipes - With Aloe & Indian Lotus</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 130</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img15.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Nestle</h3>
+                    <h3 class="fs-6 text-body-secondary">Cerelac Baby Cereal With Milk, Multigrain & Fruits - From 12 Months</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 135</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img16.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Johnson's baby</h3>
+                    <h3 class="fs-6 text-body-secondary">Baby Cream</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 95</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img17.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Nestle</h3>
+                    <h3 class="fs-6 text-body-secondary">Mother's Plus, Vanilla</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 558</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img18.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Himalaya Baby</h3>
+                    <h3 class="fs-6 text-body-secondary">Baby Soap - Extra Moisturizing</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 60</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img19.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Nestle</h3>
+                    <h3 class="fs-6 text-body-secondary">Ceregrow Multigrain Cereal with Milk & Fruits - From 2-5 Years, Rich in Iron, High in Protein Box</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 320</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="bankone" style="width: 222px;">
+                <div class="card shadow-sm">
+                  <div class="col shadow p-1 bg-white rounded my-1" style="height: 0px;">
+                    <p style="font-size: 12px; font-weight:bold;" class="float-end text-danger">GET 25% OFF <span><i class="fa-solid fa-explosion"></i></span></p>  
+                  </div>
+                  <img src="buttons/baby/img20.webp" alt="Fresho Eggs - Regular" >
+                  <div class="card-body">
+                    <h3 class="fs-6 text-body-tertiary">Baby Dove</h3>
+                    <h3 class="fs-6 text-body-secondary">Rich Moisture Hypoallergenic Wash - Sensitive Care, Natural, No Parabens</h3>
+                    <h3 class="fs-6 text-body-emphasis">MRP: Rs. 300</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-warning"><img src="icons/cart icon.png" style="width: 20px;">ADD</button>
+                      </div>
+                      <small class="text-body-secondary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+</div>
+</div>
+
+<div class="d-flex justify-content-center p-3" style="margin-left: 1px;">
+  <button type="button" class="btn btn-success">Success</button>
+</div>
+
+<div id="footer" style="display: flex; width: 100%; box-shadow: 0px 1px rgb(173, 171, 171); margin-bottom: 30px;">
+  <div style="width: 25%; padding-left: 10%; padding-top: 50px;">
+      <div style="color: rgb(176, 173, 173); font-family:Arial, Helvetica, sans-serif ;">
+          <h4 style="color: #84C225; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; font-size: 20px;">help</h4>
+          <p style="font-size: 12px;">About us</p>
+          <p style="font-size: 12px;">In News</p>
+          <p style="font-size: 12px;">Green Bigbasket</p>
+          <p style="font-size: 12px;">Privacy and police</p>
+          <p style="font-size: 12px;">Affiliate</p>
+          <p style="font-size: 12px;">Terms and Conditions</p>
+          <p style="font-size: 12px;">bb Instant</p>
+          <p style="font-size: 12px;">bb Daily</p>
+          <p style="font-size: 12px;">bb Blog</p>
+          <p style="font-size: 12px;">bb now</p>
+
+      </div>
+      
+  </div>
+  <div style="width: 25%;   padding-left: 10%; padding-top: 50px;">
+      <div style="color: rgb(176, 173, 173); font-family:Arial, Helvetica, sans-serif ;">
+          <h4 style="color: #84C225; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; font-size: 20px;">help</h4>
+          <p style="font-size: 12px; ">FAQs</p>
+          <p style="font-size: 12px;">Contact Us</p>
+          <p style="font-size: 12px;">bb Wallet FAQs</p>
+          <p style="font-size: 12px;">bb Wallet T&Cs</p>
+          <p style="font-size: 12px;">Vendor Connect</p>
+      </div>
+      
+  </div>
+  <div style="width: 25%;  padding-left: 10%; padding-top: 50px;">
+      <div style="color: rgb(176, 173, 173); font-family:Arial, Helvetica, sans-serif ;">
+          <h4 style="color: #84C225; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; font-size: 20px;">Download our App</h4>
+          <a href="https://play.google.com/store/search?q=bigbasket&c=apps&hl=en-IN"><div class="btn" style=" width: 150px; height: 50px; padding: 0px; border-radius: 10px;"><img style=" width: 150px; height: 50px;" src="buttons/card/img3.jpg" alt=""></div></a>
+          <a href="https://apps.apple.com/in/app/bigbasket-bbnow-grocery-app/id660683603"><div class="btn" style=" width: 150px; height: 50px; padding: 0px; border-radius: 10px; margin-top: 20px;"><img style=" width: 150px; height: 50px; " src="buttons/card/img4.jpg" alt=""></div></a>
+          
+
+          
+      </div>
+      
+  </div>
+  <div style="width: 25%; padding-left: 10%; padding-top: 50px;">
+      <h1 style="color: #84C225; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; font-size: 20px;"> Get Social With Us</h1>
+      <i class="fa-brands fa-facebook"></i>
+      
+  </div>
+</div>
+          
+
+
+
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
